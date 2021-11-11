@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <WebView android:layout_height="286dp" android:layout_width="match_parent" android:onClick="" android:id="@+id/aWeb"/>
+
+    <ListView android:layout_height="match_parent" android:layout_width="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/aWeb"
+        android:layout_marginBottom="48dp"/>
+
+</LinearLayout>

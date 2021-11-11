@@ -1,0 +1,16 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#e040fb">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#e040fb"/>
+        </shape>
+    </item>
+    <item>
+        <animated-rotate>
+            <selector>
+                <item android:color="#074e71"/>
+            </selector>
+        </animated-rotate>
+
+    </item>
+</ripple>
